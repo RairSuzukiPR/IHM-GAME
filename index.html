@@ -1,0 +1,126 @@
+
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <title>GAME TESTE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  </head>
+  <body>
+
+    <div class="header">
+      Header
+    </div>
+  
+    <div class="container">
+      <div class="box">
+        <div class="area-tv">
+          <div class="game-off">
+            <span>NO SIGNAL</span>
+          </div>
+          <div class="game-on"></div>
+        </div>
+        <div class="area-btn-action-play">
+          <button class="btn-action-play btn-action-play-play disabled" disabled >
+            <div class="btn-action-play-icon">
+              <i class="fa fa-play"></i> 
+            </div>
+            <div>Play</div>
+          </button>
+          <button class="btn-action-play btn-action-play-restart disabled">
+            <div class="btn-action-play-icon">
+              <i class="fa fa-undo"></i>
+            </div>
+            <div>Restart</div>
+          </button>
+          <button class="btn-action-play btn-action-play-settings">
+            <div class="btn-action-play-icon">
+              <i class="fa fa-gear"></i>
+            </div>
+            <div>Settings</div>
+          </button>
+        </div>
+      </div>
+
+      <div class="box droppable-box b1">
+        <span>Function 1</span>
+        <div class="function-1 placeholders">
+          <div class="p1 btn-action-movement-placeholder"></div>
+          <div class="p2 btn-action-movement-placeholder"></div>
+          <div class="p3 btn-action-movement-placeholder"></div>
+          <div class="p4 btn-action-movement-placeholder"></div>
+          <div class="p5 btn-action-movement-placeholder"></div>
+          <div class="p6 btn-action-movement-placeholder"></div>
+          <div class="p7 btn-action-movement-placeholder"></div>
+          <div class="p8 btn-action-movement-placeholder"></div>
+          <div class="p9 btn-action-movement-placeholder"></div>
+          <div class="p10 btn-action-movement-placeholder"></div>
+        </div>
+      </div>
+
+      <div class="box droppable-box b2">
+        <span>Function 2</span>
+        <div class="function-2 placeholders">
+          <div class="p1 btn-action-movement-placeholder"></div>
+          <div class="p2 btn-action-movement-placeholder"></div>
+          <div class="p3 btn-action-movement-placeholder"></div>
+          <div class="p4 btn-action-movement-placeholder"></div>
+          <div class="p5 btn-action-movement-placeholder"></div>
+          <div class="p6 btn-action-movement-placeholder"></div>
+          <div class="p7 btn-action-movement-placeholder"></div>
+          <div class="p8 btn-action-movement-placeholder"></div>
+          <div class="p9 btn-action-movement-placeholder"></div>
+          <div class="p10 btn-action-movement-placeholder"></div>
+        </div>
+      </div>
+
+      <div class="box droppable-box b3">
+        <span>Action list</span>
+        <div class="action-list placeholders">
+          <div class="p1 btn-action-movement-placeholder"></div>
+          <div class="p2 btn-action-movement-placeholder"></div>
+          <div class="p3 btn-action-movement-placeholder"></div>
+          <div class="p4 btn-action-movement-placeholder"></div>
+          <div class="p5 btn-action-movement-placeholder"></div>
+          <div class="p6 btn-action-movement-placeholder"></div>
+          <div class="p7 btn-action-movement-placeholder"></div>
+          <div class="p8 btn-action-movement-placeholder"></div>
+          <div class="p9 btn-action-movement-placeholder"></div>
+          <div class="p10 btn-action-movement-placeholder"></div>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="btn-left btn-action-movement" draggable="true">
+          <i class="fa fa-arrow-left"></i>
+        </div>
+        <div class="btn-right btn-action-movement" draggable="true">
+          <i class="fa fa-arrow-right"></i>
+        </div>
+        <div class="btn-up btn-action-movement" draggable="true">
+          <i class="fa fa-arrow-up"></i>
+        </div>
+        <div class="btn-down btn-action-movement" draggable="true">
+          <i class="fa fa-arrow-down"></i>
+        </div>
+        <div class="btn-eat btn-action-movement " draggable="true">
+          <i class="fa fa-cutlery"></i>
+        </div>
+        <div class="btn-f1 btn-action-movement" draggable="true">
+          <span>F1</span>
+        </div>
+        <div class="btn-f2 btn-action-movement" draggable="true">
+          <span>F2</span>
+        </div>
+        <!-- <div class="btn-trash btn-action-movement" draggable="true">
+          <i class="fa fa-trash"></i>
+        </div> -->
+      </div>
+    </div>
+
+    <script src="layout.js"></script>
+    <script src="game.js"></script>
+    <script src="https://kaboomjs.com/lib/0.6.0/kaboom.js"></script>
+  </body>
+</html>
